@@ -19,7 +19,7 @@ public class GstaController {
 	@Autowired
 	GstaService gstaSer;
 
-	@PostMapping(value = "/addGsta")
+	@PostMapping(value = "/addGst")
 	public String addGsta(@RequestBody Gsta gsta) {
 		return gstaSer.addGsta(gsta);
 
