@@ -26,7 +26,7 @@ public class GstaController {
 	}
 	
 	
-	@GetMapping(value="/getHsn/{hsn}")
+	@GetMapping(value="/getHsn1/{hsn}")
 	public int getByPercentage(@PathVariable int hsn) {
 		return gstaSer.getByPercentage(hsn);
 	}
